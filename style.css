@@ -3260,3 +3260,10 @@ sub.duration {
 .footer-style-five .social-bookmark-wrapper{
   float: right;
 }
+.foottag{
+	position: absolute;
+	left: 0;
+	bottom: 0.5;
+	width: 240px;
+	padding: 30px 0 0 30px;
+}
