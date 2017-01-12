@@ -1527,13 +1527,14 @@ a.button.extra-small {
   letter-spacing: 1px;
   margin: 0;
   padding-left: 20px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .portfolio-description h4 a {
   display: inline-block;
   margin-bottom: 6px;
   padding-bottom: 6px;
   position: relative;
+	text-transform: capitalize;
 }
 .portfolio-description h4 a::before {
   border-bottom: 1px solid #232323;
@@ -1543,6 +1544,7 @@ a.button.extra-small {
   left: 0;
   position: absolute;
   width: 50px;
+	text-transform: capitalize;
 }
 .portfolio-item:hover .portfolio-action-btn{
   opacity: 1;
