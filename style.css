@@ -1534,7 +1534,7 @@ a.button.extra-small {
   margin-bottom: 6px;
   padding-bottom: 6px;
   position: relative;
-	text-transform: capitalize;
+	text-transform: none;
 }
 .portfolio-description h4 a::before {
   border-bottom: 1px solid #232323;
