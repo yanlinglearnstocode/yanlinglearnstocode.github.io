@@ -1273,6 +1273,9 @@ a.button.extra-small {
 .adam-main-slider-area.adam-slider-pension {
   background: rgba(0, 0, 0, 0) url("img/slider/pensionlanding.png") repeat scroll center center / cover;
 }
+.adam-main-slider-area.adam-slider-quitit {
+  background: rgba(0, 0, 0, 0) url("img/slider/quititlanding.png") repeat scroll center center / cover;
+}
 .adam-main-slider-area.adam-slider-3 {
   background: rgba(0, 0, 0, 0) url("img/slider/3.jpg") repeat scroll center center / cover ;
   padding: 180px 0;
