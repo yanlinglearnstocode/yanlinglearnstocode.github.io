@@ -1905,9 +1905,10 @@ transition-duration: 0.6s;
   padding-bottom: 13px;
   text-transform: unset;
 }
-.single-project-description > p {
+.single-project-description-1 > p {
   color: #666666;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 26px;
   margin-bottom: 20px;
 }
 .post-share ul{
