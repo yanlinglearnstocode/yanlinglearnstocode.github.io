@@ -751,18 +751,20 @@ blockquote {
 }
 .portfolio-wrap .cbp-l-caption-title {
   font-family: 'Roboto';
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 500;
   color: rgba(50, 50, 50, 100);
   margin-bottom: 10px;
   letter-spacing: 1px;
+  line-height: 25px;
 }
 .portfolio-wrap .cbp-l-caption-desc {
   font-family: 'Roboto';
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 300;
   color: rgba(50, 50, 50, 100);
   letter-spacing: 1px;
+  line-height: 20px;
 }
 .portfolio-wrap .load-more {
   margin-top: 50px;
