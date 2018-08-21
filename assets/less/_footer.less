@@ -1,0 +1,31 @@
+
+// FOOTER
+// ==================================================
+
+
+	.footer {
+		margin: 100px 0;
+		padding-top: 100px;
+		position: relative;
+
+		&::before {
+			content: '';
+			width: 2px;
+			height: 50px;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			margin-left: -1px;
+			background: @dark_color;
+		}
+
+		.copy {
+			a {
+				color: lighten(@dark_color, 50%);
+
+				.transition(all 0.3s ease);
+
+				&:hover { color: @dark_color; }
+			}
+		}
+	}

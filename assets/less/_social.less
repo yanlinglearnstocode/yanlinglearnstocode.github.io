@@ -1,0 +1,38 @@
+
+// SOCIAL
+// ==================================================
+
+
+	.social {
+		li {
+			display: inline-block;
+			position: relative;
+
+			&.title {
+				display: block;
+				font-size: 14px;
+				margin-bottom: 15px;
+			}
+
+			&::before {
+				display: inline-block;
+				content: '';
+				vertical-align: middle;
+				width: 10px;
+				height: 2px;
+				background: @dark_color;
+				margin: 0 10px;
+			}
+
+			&:first-child::before { display: none; }
+
+			a {
+				display: inline-block;
+				font-size: 17px;
+
+				.transition(all 0.3s ease);
+
+				&:hover { color: lighten(@dark_color, 50%); }
+			}
+		}
+	}
